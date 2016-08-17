@@ -12,6 +12,8 @@
 
 std::string shader1;
 
+GLuint vertexShader; 
+o//COMPILE A SHADER HERE
 int loadShader( ) { 
     std::ifstream ifs("./shader/basic.vert");
 
