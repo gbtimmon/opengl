@@ -1,12 +1,9 @@
 #########
-# Dont include lib files
+# Dont include lib files, executables, or logs
 #########
 *.o
-
-
-########
-# Dont include log files
-########
+*.exe
+*.dll
 *.log
 *.err
 
