@@ -1,0 +1,12 @@
+#########
+# Dont include lib files
+#########
+*.o
+
+
+########
+# Dont include log files
+########
+*.log
+*.err
+
