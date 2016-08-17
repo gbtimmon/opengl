@@ -8,7 +8,6 @@
 #include <sstream>
 
 #include "vec3.h"
-#include "const.h"
 
 #define SIZE(x) (sizeof(x) / sizeof(*x))
 

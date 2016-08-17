@@ -6,6 +6,8 @@
 #include <glfw3.h>
 #include <iostream>
 
+#include "shader.h"
+
 #define COLOR_CLEAR .2f, .3f, .3f, 1.f 
 
 GLFWwindow* window = NULL;
@@ -50,6 +52,8 @@ int main( void ) {
    
    glfwGetFramebufferSize( window, &width, &height ); 
    glViewport(0, 0, width, height);   
+
+   loadShader();
 
    glfwSetKeyCallback( window, key_callback ) ;
    glClearColor( COLOR_CLEAR );
